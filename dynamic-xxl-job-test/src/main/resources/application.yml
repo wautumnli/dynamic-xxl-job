@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+xxl:
+  login:
+    username: admin
+    password: 123456
+  job:
+    admin:
+      addresses: http://127.0.0.1:8080/xxl-job-admin
+    accessToken: 123
+    executor:
+      appName: demo-job
+      address:
+      ip:
+      port: 9999
+      logpath: /Users/a65/my_env/xxl-job/
+      logretentiondays: 30
